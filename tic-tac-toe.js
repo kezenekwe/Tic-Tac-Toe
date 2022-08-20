@@ -1,4 +1,5 @@
 //get elements
+const display = document.querySelector(".display");
 let boxes = document.querySelectorAll(".grid-item");
 let one = document.querySelector(".one");
 let two = document.querySelector(".two");
@@ -25,16 +26,19 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         two.classList.add("gg");
                         three.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (four.innerHTML == "X" && seven.innerHTML == "X") {
                         one.classList.add("gg");
                         four.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (five.innerHTML == "X" && nine.innerHTML == "X") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -48,16 +52,19 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         two.classList.add("gg");
                         three.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (four.innerHTML == "O" && seven.innerHTML == "O") {
                         one.classList.add("gg");
                         four.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (five.innerHTML == "O" && nine.innerHTML == "O") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -75,11 +82,13 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         two.classList.add("gg");
                         three.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (five.innerHTML == "X" && eight.innerHTML == "X") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         eight.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -93,11 +102,13 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         two.classList.add("gg");
                         three.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (five.innerHTML == "O" && eight.innerHTML == "O") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         eight.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -115,16 +126,19 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         two.classList.add("gg");
                         three.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (five.innerHTML == "X" && seven.innerHTML == "X") {
                         three.classList.add("gg");
                         five.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (six.innerHTML == "X" && nine.innerHTML == "X") {
                         three.classList.add("gg");
                         six.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -138,16 +152,19 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         two.classList.add("gg");
                         three.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (five.innerHTML == "O" && seven.innerHTML == "O") {
                         three.classList.add("gg");
                         five.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (six.innerHTML == "O" && nine.innerHTML == "O") {
                         three.classList.add("gg");
                         six.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -165,11 +182,13 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         four.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (five.innerHTML == "X" && six.innerHTML == "X") {
                         four.classList.add("gg");
                         five.classList.add("gg");
                         six.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -183,11 +202,13 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         four.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (five.innerHTML == "O" && six.innerHTML == "O") {
                         four.classList.add("gg");
                         five.classList.add("gg");
                         six.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -205,21 +226,25 @@ boxes.forEach(function (box) {
                         two.classList.add("gg");
                         five.classList.add("gg");
                         eight.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (four.innerHTML == "X" && six.innerHTML == "X") {
                         four.classList.add("gg");
                         five.classList.add("gg");
                         six.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (one.innerHTML == "X" && nine.innerHTML == "X") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (three.innerHTML == "X" && seven.innerHTML == "X") {
                         three.classList.add("gg");
                         five.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -233,21 +258,25 @@ boxes.forEach(function (box) {
                         two.classList.add("gg");
                         five.classList.add("gg");
                         eight.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (four.innerHTML == "O" && six.innerHTML == "O") {
                         four.classList.add("gg");
                         five.classList.add("gg");
                         six.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (one.innerHTML == "O" && nine.innerHTML == "O") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (three.innerHTML == "O" && seven.innerHTML == "O") {
                         three.classList.add("gg");
                         five.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -265,11 +294,13 @@ boxes.forEach(function (box) {
                         three.classList.add("gg");
                         six.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (four.innerHTML == "X" && five.innerHTML == "X") {
                         four.classList.add("gg");
                         five.classList.add("gg");
                         six.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -283,11 +314,13 @@ boxes.forEach(function (box) {
                         three.classList.add("gg");
                         six.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (four.innerHTML == "O" && five.innerHTML == "O") {
                         four.classList.add("gg");
                         five.classList.add("gg");
                         six.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -305,16 +338,19 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         four.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (three.innerHTML == "X" && five.innerHTML == "X") {
                         three.classList.add("gg");
                         five.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (eight.innerHTML == "X" && nine.innerHTML == "X") {
                         seven.classList.add("gg");
                         eight.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -328,16 +364,19 @@ boxes.forEach(function (box) {
                         one.classList.add("gg");
                         four.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (three.innerHTML == "O" && five.innerHTML == "O") {
                         three.classList.add("gg");
                         five.classList.add("gg");
                         seven.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (eight.innerHTML == "O" && nine.innerHTML == "O") {
                         seven.classList.add("gg");
                         eight.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -355,11 +394,13 @@ boxes.forEach(function (box) {
                         seven.classList.add("gg");
                         eight.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (two.innerHTML == "X" && five.innerHTML == "X") {
                         two.classList.add("gg");
                         five.classList.add("gg");
                         eight.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -373,11 +414,13 @@ boxes.forEach(function (box) {
                         seven.classList.add("gg");
                         eight.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (two.innerHTML == "O" && five.innerHTML == "O") {
                         two.classList.add("gg");
                         five.classList.add("gg");
                         eight.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
@@ -395,16 +438,19 @@ boxes.forEach(function (box) {
                         three.classList.add("gg");
                         six.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (one.innerHTML == "X" && five.innerHTML == "X") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                     if (seven.innerHTML == "X" && eight.innerHTML == "X") {
                         seven.classList.add("gg");
                         eight.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "X wins!"
                     }
                 }
             }
@@ -418,16 +464,19 @@ boxes.forEach(function (box) {
                         three.classList.add("gg");
                         six.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (one.innerHTML == "O" && five.innerHTML == "O") {
                         one.classList.add("gg");
                         five.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                     if (seven.innerHTML == "O" && eight.innerHTML == "O") {
                         seven.classList.add("gg");
                         eight.classList.add("gg");
                         nine.classList.add("gg");
+                        display.innerHTML = "O wins!"
                     }
                 }
             }
